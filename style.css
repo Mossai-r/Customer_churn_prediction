@@ -1,0 +1,42 @@
+body, .stApp {
+    background: linear-gradient(120deg, #181f2e 0%, #232b3a 100%) !important;
+}
+h1, h2, h3, h4, h5 {
+    color: #2081e2 !important;
+    font-family: 'Segoe UI', sans-serif;
+}
+.stButton>button {
+    background: #2081e2 !important;
+    color: #fff !important;
+    border-radius: 6px;
+    padding: 0.5em 1.5em;
+    box-shadow: 0 4px 24px #2081e220;
+    font-weight: 600;
+    border: none;
+    transition: 0.2s;
+}
+.stButton>button:hover {
+    background: #256ee8 !important;
+    color: #f8fafd !important;
+    box-shadow: 0 4px 40px #2081e2cc;
+}
+[data-testid="stForm"] {
+    background: #222940;
+    border-radius: 16px;
+    padding: 2em;
+    box-shadow: 0 8px 32px #18203c33;
+}
+.stTextInput>div>div>input, .stNumberInput>div input, .stSelectbox>div[data-baseweb="select"]>div {
+    background: #232b3a !important;
+    color: #f3f5fa !important;
+    border-radius: 5px;
+}
+hr, .stDivider {
+    border: none !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, #2081e2 40%, #44e0bb 100%);
+    margin: 2em 0 1em 0 !important;
+}
+.stCaption, footer {
+    color: #566885 !important;
+}
